@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Bashboard</title>
+        <item>
+            <title>2.0.0-alpha.4</title>
+            <pubDate>Tue, 21 Apr 2026 23:00:00 -0600</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>2.0.0-alpha.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:channel>alpha</sparkle:channel>
+            <description><![CDATA[
+                <h3>Sequoia launch fix (alpha.3 regression)</h3>
+                <p>alpha.3 signed the bundle with hardened runtime (<code>--options=runtime</code>) plus ad-hoc signing. Sequoia 15+ rejects that combo because hardened runtime requires a Developer ID plus notarization. Result was the same generic "cannot be opened because of a problem" dialog that alpha.1 produced. This alpha drops the runtime flag; bundle is plain ad-hoc signed with sealed resources.</p>
+                <p><strong>Heads up for alpha.4 installs:</strong> the alpha.4 build was published with an incorrect Sparkle feed URL (pointed at a private repo). Auto-update from alpha.4 to alpha.5 will not work; please download alpha.5 manually one time from <a href="https://github.com/jrioscloud/termflow-releases/releases/latest">the releases page</a>. Auto-update will resume from alpha.5 onward.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/jrioscloud/termflow-releases/releases/download/v2.0.0-alpha.4/Bashboard-2.0.0-alpha.4.dmg"
+                sparkle:version="4"
+                sparkle:shortVersionString="2.0.0-alpha.4"
+                sparkle:edSignature="kIkLdPTddD6ACMWVBt2H19//+FfjnZaJSb9f19P38p0yBgj/xfibJqWnFbbNZfJfA7soKO2ChqDxBCp0TR1WBQ=="
+                length="4032090"
+                type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>
