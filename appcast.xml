@@ -3,13 +3,13 @@
     <channel>
         <title>TermFlow</title>
         <item>
-            <title>2.0.0-alpha.10</title>
-            <pubDate>Thu, 23 Jul 2026 16:20:04 -0600</pubDate>
+            <title>2.0.0-alpha.11</title>
+            <pubDate>Thu, 23 Jul 2026 16:21:29 -0600</pubDate>
             <sparkle:channel>alpha</sparkle:channel>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>2.0.0-alpha.10</sparkle:shortVersionString>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>2.0.0-alpha.11</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/jrioscloud/termflow-releases/releases/download/v2.0.0-alpha.10/Bashboard-2.0.0-alpha.10.dmg" length="4275189" type="application/octet-stream" sparkle:edSignature="yGMsBL2Y5eo05/FQrB+TqzIMVfJjnuQryWMwv3KdFq0KbDn4OwcBri62buqwNRXiOEKJ713i3fhjbtcDPuPPDA=="/>
+            <enclosure url="https://github.com/jrioscloud/termflow-releases/releases/download/v2.0.0-alpha.11/Bashboard-2.0.0-alpha.11.dmg" length="4278672" type="application/octet-stream" sparkle:edSignature="1zwoK+dk8TYnNCgWCN2xw+vHPYZ5BxzTus/ut42HVXwZ0y1iJtzW7N9B593bb0xqHjgomOyzjDSbLVho8ny3DQ=="/>
         </item>
     </channel>
 </rss>
